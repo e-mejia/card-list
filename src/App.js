@@ -1,23 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+import CardList from "./components/CardList";
+import Card from "./components/Card";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+
+import "./App.css";
+
+const data = [
+  {
+    id: 1,
+    text: "Subwoofer",
+  },
+  {
+    id: 2,
+    text: "Non-porous, washable",
+  },
+  {
+    id: 3,
+    text: "Wings",
+  },
+  {
+    id: 4,
+    text: "Beveled Bezel",
+  },
+  {
+    id: 5,
+    text: "Bezeled Bevel",
+  },
+  {
+    id: 6,
+    text: "Seedless",
+  },
+];
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="cardlist">
+        <Header />
+        <CardList data={data} />
+        <Footer />
+      </div>
     </div>
   );
 }
