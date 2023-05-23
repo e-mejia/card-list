@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Author:  Eduardo Mejia
 
 # This is a single React app that displays a static list of phone features. No functionality has been coded into it. This was more a fun project in the use of React to build the UI.
 
