@@ -1,7 +1,7 @@
 {
   "name": "card-list",
   "version": "0.1.0",
-  "homepage": "https://e-mejia.github.io/card-list",
+  "homepage": "http://e-mejia.github.io/card-list",
   "private": true,
   "dependencies": {
     "react": "^18.2.0",
