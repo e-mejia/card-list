@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 # React card-list
 
 Author: Eduardo Mejia
